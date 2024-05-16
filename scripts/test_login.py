@@ -25,5 +25,3 @@ class TestLogin:
         resp = requests.post(url=url, data=data)
         data = resp.json()
         assert data is not None
-        print(111)
-        assert 1 == 2
