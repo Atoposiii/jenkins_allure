@@ -56,24 +56,24 @@ def push_report(web_hook):
                         "tag": "lark_md"
                     }
                 },
+
                 {
                     "tag": "div",
                     "text": {
-                        "content": "<at id=all></at> ",
+                        "content": "[查看Allure报告](http://localhost:8080/job/demo/allure/)",
                         "tag": "lark_md"
                     }
                 },
                 {
-                    "tag": "hr"
+                    "tag": "div",
+                    "text": {
+                                "content": "at所有人<at id=all></at> ",
+                            "tag": "lark_md"
+                    },
+
                 },
                 {
-                    "tag": "note",
-                    "elements": [
-                        {
-                            "tag": "plain_text",
-                            "content": "✅  xxxxxxxxxxx。"
-                        }
-                    ]
+                    "tag": "hr"
                 }
             ],
             "header": {
