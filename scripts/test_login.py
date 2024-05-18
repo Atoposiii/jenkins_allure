@@ -25,3 +25,6 @@ class TestLogin:
         resp = requests.post(url=url, data=data)
         data = resp.json()
         assert data is not None
+    
+    def test_error(self):
+        assert 1 == 2
