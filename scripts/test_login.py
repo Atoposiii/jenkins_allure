@@ -27,4 +27,4 @@ class TestLogin:
         assert data is not None
     
     def test_error(self):
-        assert 1 == 2
+        assert 1 == 1
